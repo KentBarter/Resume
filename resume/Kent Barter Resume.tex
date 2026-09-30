@@ -1,0 +1,29 @@
+\documentclass[11pt]{article}
+
+\usepackage{../components/commonheader}
+
+\begin{document}
+
+\subimport{../components/}{background.tex}
+
+% education
+\resumesection{Education}
+\subimport{../components/education}{berkeley.tex}
+
+% Experience
+\resumesection{Experience}
+\subimport{../components/experiences}{experience.tex}
+
+%Projects
+\resumesection{Projects}
+\subimport{../components/experiences/}{projects.tex}
+
+% Volunteering
+\resumesection{Volunteering}
+\subimport{../components/Volunteering/}{Volunteering.tex}
+
+% Skills
+\resumesection{Skills}
+\subimport{../components/}{skills.tex}
+
+\end{document}
